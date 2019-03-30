@@ -1,0 +1,34 @@
+              <?xml version="1.0" encoding="utf-8"?>
+              <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:orientation="vertical"
+                  tools:context=".MainActivity">
+
+                  <Button
+                      android:id="@+id/chooser"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Choose File" />
+
+                  <Button
+                      android:id="@+id/upload_image"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Upload File" />
+
+                  <TextView
+                      android:id="@+id/alert"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="50dp"
+                      android:text="here will be alert"
+                      android:textAlignment="center"
+                      android:textColor="@android:color/holo_red_light"
+                      android:textSize="20sp"
+                      android:visibility="gone" />
+
+
+              </LinearLayout>
